@@ -1,4 +1,4 @@
-# Vijay Meena (Samar)
+# Vijay Meena
 
 A person who uses computers every day to innovate new things.
 

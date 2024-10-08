@@ -2,9 +2,7 @@ const AboutPage: React.FC = () => {
   return (
     <section className="space-y-8">
       <section>
-        <h3 className="pb-2 text-2xl font-bold">
-          Hi, I am Vijay (Also knows as Samar)
-        </h3>
+        <h3 className="pb-2 text-2xl font-bold">Hi, I am Vijay</h3>
         <h3 className="text-gray-400">
           I am a seasoned Full Stack Developer and Cloud Server Administrator
           with a rich background in Computer Science Engineering, a field I have

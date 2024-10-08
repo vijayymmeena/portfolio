@@ -14,9 +14,7 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>
-              Vijay Meena <span className="opacity-20">(Samar)</span>
-            </h1>
+            <h1 className={styles.name}>Vijay Meena</h1>
             <h6 className={styles.bio}>
               Full Stack Developer & Cloud Administrator
             </h6>
