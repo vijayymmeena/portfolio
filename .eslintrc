@@ -1,0 +1,45 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/strict-type-checked"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": true
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "typescript-sort-keys",
+    "simple-import-sort",
+    "prettier"
+  ],
+  "rules": {
+    // simple-import-sort
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+
+    // typescript-sort-keys
+    "typescript-sort-keys/interface": "error",
+    "typescript-sort-keys/string-enum": "error",
+
+    // react
+    "react-hooks/exhaustive-deps": "off",
+
+    // next
+    "@next/next/no-img-element": "off",
+
+    // typescript-eslint
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/consistent-type-imports": "error",
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": {
+          "arguments": false
+        }
+      }
+    ]
+  }
+}

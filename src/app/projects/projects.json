@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Discordx",
+    "image": "https://discordx.js.org/discordx.svg",
+    "description": "🤖 Create a discord bot with TypeScript and Decorators!",
+    "tags": [
+      "nodejs",
+      "javascript",
+      "bot",
+      "typescript",
+      "command",
+      "discord",
+      "decorators"
+    ],
+    "source_code": "https://github.com/discordx-ts/discordx",
+    "demo": "https://discordx.js.org"
+  }
+]
